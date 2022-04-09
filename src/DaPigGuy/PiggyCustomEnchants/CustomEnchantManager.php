@@ -78,6 +78,7 @@ use DaPigGuy\PiggyCustomEnchants\enchants\weapons\LacedWeaponEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\weapons\LifestealEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\weapons\LightningEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\weapons\VampireEnchant;
+use DaPigGuy\PiggyCustomEnchants\enchants\weapons\RazoredgedEnchant;
 use DaPigGuy\PiggyCustomEnchants\entities\HomingArrow;
 use DaPigGuy\PiggyCustomEnchants\entities\PiggyFireball;
 use DaPigGuy\PiggyCustomEnchants\entities\PiggyWitherSkull;
@@ -144,6 +145,7 @@ class CustomEnchantManager
         self::registerEnchantment(new ChickenEnchant($plugin, CustomEnchantIds::CHICKEN));
         self::registerEnchantment(new CloakingEnchant($plugin, CustomEnchantIds::CLOAKING));
         self::registerEnchantment(new DeathbringerEnchant($plugin, CustomEnchantIds::DEATHBRINGER));
+        self::registerEnchantment(new RazoredgedEnchant($plugin, CustomEnchantIds::RAZOREDGED));
         self::registerEnchantment(new DeepWoundsEnchant($plugin, CustomEnchantIds::DEEPWOUNDS));
         self::registerEnchantment(new DisarmingEnchant($plugin, CustomEnchantIds::DISARMING));
         self::registerEnchantment(new DisarmorEnchant($plugin, CustomEnchantIds::DISARMOR));
