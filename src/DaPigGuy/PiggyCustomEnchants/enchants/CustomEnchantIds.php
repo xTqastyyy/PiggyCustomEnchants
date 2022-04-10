@@ -28,13 +28,13 @@ class CustomEnchantIds
     const DISARMOR = 121;
     const GOOEY = 103;
     const HALLUCINATION = 119;
-    //const HEADLESS = 116;
-    //const ICEASPECT = 106;
+    const HEADLESS = 116;
+    const ICEASPECT = 106;
     const LIFESTEAL = 100;
     const LIGHTNING = 123;
     const LUCKYCHARM = 124;
     const POISON = 104;
-    //const SHOCKWAVE = 107;
+    const SHOCKWAVE = 107;
     const VAMPIRE = 111;
     const WITHER = 115;
 
