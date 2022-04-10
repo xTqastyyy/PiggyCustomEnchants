@@ -69,6 +69,7 @@ use DaPigGuy\PiggyCustomEnchants\enchants\weapons\bows\ShuffleEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\weapons\bows\VolleyEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\weapons\ConditionalDamageMultiplierEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\weapons\DeathbringerEnchant;
+use DaPigGuy\PiggyCustomEnchants\enchants\weapons\RazoredgedEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\weapons\DeepWoundsEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\weapons\DisarmingEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\weapons\DisarmorEnchant;
@@ -117,6 +118,7 @@ class CustomEnchantManager
         self::registerEnchantment(new LacedWeaponEnchant($plugin, CustomEnchantIds::CRIPPLE, "Cripple", Rarity::COMMON, [VanillaEffects::NAUSEA(), VanillaEffects::SLOWNESS()], [100, 100], [0, 1]));
         self::registerEnchantment(new LacedWeaponEnchant($plugin, CustomEnchantIds::POISON, "Poison", Rarity::UNCOMMON, [VanillaEffects::POISON()]));
         self::registerEnchantment(new LacedWeaponEnchant($plugin, CustomEnchantIds::WITHER, "Wither", Rarity::UNCOMMON, [VanillaEffects::WITHER()]));
+        self::registerEnchantment(new LacedWeaponEnchant($plugin, CustomEnchantIds::RAZOREDGED, "Razoredged", Rarity::MYTHIC, [VanillaEffects::INSTANT_DAMAGE()])), [20], [0], [0]));
 
         self::registerEnchantment(new ProjectileChangingEnchant($plugin, CustomEnchantIds::BLAZE, "Blaze", PiggyFireball::class));
         self::registerEnchantment(new ProjectileChangingEnchant($plugin, CustomEnchantIds::HOMING, "Homing", HomingArrow::class, 3, Rarity::MYTHIC));
@@ -144,6 +146,7 @@ class CustomEnchantManager
         self::registerEnchantment(new ChickenEnchant($plugin, CustomEnchantIds::CHICKEN));
         self::registerEnchantment(new CloakingEnchant($plugin, CustomEnchantIds::CLOAKING));
         self::registerEnchantment(new DeathbringerEnchant($plugin, CustomEnchantIds::DEATHBRINGER));
+        self::registerEnchantment(new DeathbringerEnchant($plugin, CustomEnchantIds::Razoredged));
         self::registerEnchantment(new DeepWoundsEnchant($plugin, CustomEnchantIds::DEEPWOUNDS));
         self::registerEnchantment(new DisarmingEnchant($plugin, CustomEnchantIds::DISARMING));
         self::registerEnchantment(new DisarmorEnchant($plugin, CustomEnchantIds::DISARMOR));
