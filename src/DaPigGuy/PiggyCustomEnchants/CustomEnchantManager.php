@@ -145,7 +145,7 @@ class CustomEnchantManager
         self::registerEnchantment(new ChickenEnchant($plugin, CustomEnchantIds::CHICKEN));
         self::registerEnchantment(new CloakingEnchant($plugin, CustomEnchantIds::CLOAKING));
         self::registerEnchantment(new DeathbringerEnchant($plugin, CustomEnchantIds::DEATHBRINGER));
-        self::registerEnchantment(new DeathbringerEnchant($plugin, CustomEnchantIds::RAZOREDGED));
+        self::registerEnchantment(new RazoredgedEnchant($plugin, CustomEnchantIds::RAZOREDGED));
         self::registerEnchantment(new DeepWoundsEnchant($plugin, CustomEnchantIds::DEEPWOUNDS));
         self::registerEnchantment(new DisarmingEnchant($plugin, CustomEnchantIds::DISARMING));
         self::registerEnchantment(new DisarmorEnchant($plugin, CustomEnchantIds::DISARMOR));
