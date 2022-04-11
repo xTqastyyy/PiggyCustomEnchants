@@ -120,6 +120,7 @@ class CustomEnchantIds
     const FORCEFIELD = 418;
     const OVERLOAD = 419;
     const ARMORED = 420;
+    const MIGHTYARMORED = 999;
     const TANK = 421;
     const HEAVY = 422;
     const SHIELDED = 423;
