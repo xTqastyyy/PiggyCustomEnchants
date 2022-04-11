@@ -6,6 +6,7 @@ namespace DaPigGuy\PiggyCustomEnchants;
 
 use DaPigGuy\PiggyCustomEnchants\enchants\armor\AntiKnockbackEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\armor\ArmoredEnchant;
+use DaPigGuy\PiggyCustomEnchants\enchants\armor\MightyArmoredEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\armor\AttackerDeterrentEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\armor\BerserkerEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\armor\boots\JetpackEnchant;
@@ -137,6 +138,7 @@ class CustomEnchantManager
         self::registerEnchantment(new AutoAimEnchant($plugin, CustomEnchantIds::AUTOAIM));
         self::registerEnchantment(new AutoRepairEnchant($plugin, CustomEnchantIds::AUTOREPAIR));
         self::registerEnchantment(new ArmoredEnchant($plugin, CustomEnchantIds::ARMORED));
+        self::registerEnchantment(new ArmoredEnchant($plugin, CustomEnchantIds::MIGHTYARMORED));
         self::registerEnchantment(new BerserkerEnchant($plugin, CustomEnchantIds::BERSERKER));
         self::registerEnchantment(new BlessedEnchant($plugin, CustomEnchantIds::BLESSED));
         self::registerEnchantment(new BombardmentEnchant($plugin, CustomEnchantIds::BOMBARDMENT));
