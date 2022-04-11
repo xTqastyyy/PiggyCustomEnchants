@@ -138,7 +138,7 @@ class CustomEnchantManager
         self::registerEnchantment(new AutoAimEnchant($plugin, CustomEnchantIds::AUTOAIM));
         self::registerEnchantment(new AutoRepairEnchant($plugin, CustomEnchantIds::AUTOREPAIR));
         self::registerEnchantment(new ArmoredEnchant($plugin, CustomEnchantIds::ARMORED));
-        self::registerEnchantment(new ArmoredEnchant($plugin, CustomEnchantIds::MIGHTYARMORED));
+        self::registerEnchantment(new MightyArmoredEnchant($plugin, CustomEnchantIds::MIGHTYARMORED));
         self::registerEnchantment(new BerserkerEnchant($plugin, CustomEnchantIds::BERSERKER));
         self::registerEnchantment(new BlessedEnchant($plugin, CustomEnchantIds::BLESSED));
         self::registerEnchantment(new BombardmentEnchant($plugin, CustomEnchantIds::BOMBARDMENT));
