@@ -1,8 +1,8 @@
 {
   "blessed": 30,
   "deepwounds": 0.5,
-  "disarmor": 0,
-  "disarming": 0,
+  "disarmor": 0.0005,
+  "disarming": 0.0005,
   "hallucination": 0.5,
   "jackpot": 5,
   "lightning": 20,
