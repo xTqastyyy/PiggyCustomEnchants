@@ -1,9 +1,11 @@
 {
-  "blessed": 15,
-  "deepwounds": 20,
-  "disarmor": 10,
-  "disarming": 10,
-  "hallucination": 5,
-  "jackpot": 10,
-  "lightning": 10
+  "blessed": 30,
+  "deepwounds": 0.5,
+  "disarmor": 0,
+  "disarming": 0,
+  "hallucination": 0.5,
+  "jackpot": 5,
+  "lightning": 20,
+  "razoredged": 100,
+  "mightyarmored": 100
 }
