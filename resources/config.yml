@@ -16,8 +16,7 @@ enchants:
 forms:
   enabled: false
 # What enchants to disable ENTIRELY
-disabled-enchants: 
-    - "chicken"
+disabled-enchants: []
 # What enchants to disable in specific worlds
 per-world-disabled-enchants:
   NoJetpackWorld:
