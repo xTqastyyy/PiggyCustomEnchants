@@ -1,4 +1,6 @@
 {
+  "razoredged": "Inflicts MASS damage to enemy"
+  "mightyarmored": "Reduces damage taken by enemy 2x times than normal armored"
   "antiknockback": "Reduces knockback per armor piece.",
   "antitoxin": "Grants immunity to poison.",
   "aerial": "While in air, damage increases.",
