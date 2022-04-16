@@ -8,9 +8,9 @@ use CortexPE\Commando\args\IntegerArgument;
 use CortexPE\Commando\args\RawStringArgument;
 use CortexPE\Commando\BaseSubCommand;
 use CortexPE\Commando\exception\ArgumentOrderException;
-use DaPigGuy\PiggyCustomEnchants\CustomEnchantManager;
-use DaPigGuy\PiggyCustomEnchants\PiggyCustomEnchants;
-use DaPigGuy\PiggyCustomEnchants\utils\Utils;
+use xTqast\ToastyCustomEnchants\CustomEnchantManager;
+use xTqast\ToastyCustomEnchants\ToastyCustomEnchants;
+use xTqast\ToastyCustomEnchants\utils\Utils;
 use jojoe77777\FormAPI\CustomForm;
 use pocketmine\command\CommandSender;
 use pocketmine\item\enchantment\EnchantmentInstance;
@@ -21,7 +21,7 @@ use Ramsey\Uuid\Uuid;
 
 class EnchantSubCommand extends BaseSubCommand
 {
-    /** @var PiggyCustomEnchants */
+    /** @var ToastyCustomEnchants */
     protected $plugin;
 
     public function onRun(CommandSender $sender, string $aliasUsed, array $args): void
