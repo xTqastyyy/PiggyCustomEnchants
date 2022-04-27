@@ -31,6 +31,9 @@ class MoltenEnchant extends ReactiveEnchantment
             $damager = $event->getDamager();
             if ($damager instanceof Living) {
                 $damager->setOnFire(($duration = $this->extraData["durationMultiplier"] * $level) > 1638 ? 1638 : $duration);
+
+         $player->sendMessage(TextFormat::YELLOW . "§l§e***MOLTEN***");
+
             }
         }
     }
