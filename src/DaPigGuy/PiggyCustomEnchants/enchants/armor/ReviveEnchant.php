@@ -57,7 +57,7 @@ class ReviveEnchant extends ReactiveEnchantment
                 for ($i = $player->getPosition()->y; $i <= 256; $i += 0.25) {
                     $player->getWorld()->addParticle($player->getPosition()->add(0, $i - $player->getPosition()->y, 0), new FlameParticle());
                 }
-                $player->sendMessage(TextFormat::ORANGE . "§l§6***REVIVE***.");
+                $player->sendMessage(TextFormat::ORANGE . "§l§6***REVIVE***");
 
                 foreach ($event->getModifiers() as $modifier => $damage) {
                     $event->setModifier(0, $modifier);
