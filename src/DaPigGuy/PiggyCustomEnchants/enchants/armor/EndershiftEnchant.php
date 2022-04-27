@@ -44,7 +44,8 @@ class EndershiftEnchant extends ReactiveEnchantment
                     $effect = new EffectInstance(VanillaEffects::ABSORPTION(), $this->extraData["strengthDurationMultiplier"] * $level, $level * $this->extraData["strengthAmplifierMultiplier"] + $this->extraData["strengthBaseAmplifier"], false);
                     $player->getEffects()->add($effect);
                 }
-                $player->sendMessage("You feel a rush of energy coming from your armor!");
+                $player->sendMessage(TextFormat::YELLOW . "§l§e***ENDERSHIFT***");
+ 
             }
         }
     }
