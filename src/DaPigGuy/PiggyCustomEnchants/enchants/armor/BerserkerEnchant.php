@@ -40,7 +40,8 @@ class BerserkerEnchant extends ReactiveEnchantment
                     $effect = new EffectInstance(VanillaEffects::STRENGTH(), $this->extraData["effectDurationMultiplier"] * $level, $level * $this->extraData["effectAmplifierMultiplier"] + $this->extraData["effectAmplifierBase"], false);
                     $player->getEffects()->add($effect);
                 }
-                $player->sendMessage("Your bloodloss makes your stronger!");
+                $player->sendMessage(TextFormat::YELLOW . "§l§e***BERSERKER***");
+
             }
         }
     }
