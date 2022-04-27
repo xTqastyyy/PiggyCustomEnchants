@@ -24,6 +24,9 @@ class BlessedEnchant extends ReactiveEnchantment
             foreach ($player->getEffects()->all() as $effect) {
                 if ($effect->getType()->isBad()) {
                     $player->getEffects()->remove($effect->getType());
+       
+         $player->sendMessage(TextFormat::YELLOW . "§l§e***BLESSED***");
+
                 }
             }
         }
