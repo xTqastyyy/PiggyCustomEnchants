@@ -32,6 +32,9 @@ class EnlightedEnchant extends ReactiveEnchantment
     {
         if ($event instanceof EntityDamageByEntityEvent) {
             $player->getEffects()->add(new EffectInstance(VanillaEffects::REGENERATION(), $this->extraData["durationMultiplier"] * $level, $level * $this->extraData["amplifierMultiplier"] + $this->extraData["baseAmplifier"], false));
+        
+        $player->sendMessage(TextFormat::YELLOW . "§l§e***ENLIGHTED***");
+
         }
     }
 }
